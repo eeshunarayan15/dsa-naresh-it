@@ -18,6 +18,7 @@ public class TranposeMatrix {
             for (int j = 0; j < cols; j++) {
                 System.out.print("Enter element "+"row"+(i+1)+"column"+(j+1)+": ");
                 matrix[i][j]= scanner.nextInt();
+               
             }
         }
         for (int i = 0; i < rows; i++) {
@@ -34,7 +35,7 @@ public class TranposeMatrix {
             for (int j = 0; j < matrix[i].length; j++) {
                 transpose[j][i] = matrix[i][j];
             }
-            System.out.println();
+            
         }
         for (int i = 0; i < transpose.length; i++) {
             for (int j = 0; j < transpose[i].length; j++) {
