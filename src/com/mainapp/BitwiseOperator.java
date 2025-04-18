@@ -12,6 +12,8 @@ public class BitwiseOperator {
         System.out.println("^ "+e);
         int f=a|a;
         System.out.println(f+" f");
+        Math.pow(2,2);
+        System.out.println(Math.pow(2,2)+" pow");
     }
 
 }
