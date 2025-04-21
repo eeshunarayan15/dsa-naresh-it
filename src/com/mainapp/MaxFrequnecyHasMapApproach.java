@@ -19,7 +19,7 @@ public class MaxFrequnecyHasMapApproach {
             if(x==arr[j]){
                 curretfreq++;
                 hashmap.put(x, curretfreq);
-                hashmap.
+              
                 
                 System.out.println(x+" "+curretfreq);
             }
