@@ -19,18 +19,18 @@ public class FrequencyWordInString {
         String maxWord = null;
         int maxCount = 0;
 
-        // for (Map.Entry<String, Integer> entry : wordMap.entrySet()) {
-        //     System.out.println(entry.getValue()+entry.getKey());
-        //     if (entry.getValue() > maxCount) {
-        //         maxWord = entry.getKey();
-        //         maxCount = entry.getValue();
-        //     }
-        // }
-for(Map.Entry<String,Integer>  entry:wordMap.entrySet()){
-    
+        for (Map.Entry<String, Integer> entry : wordMap.entrySet()) {
             System.out.println(entry.getValue()+entry.getKey());
+            if (entry.getValue() > maxCount) {
+                maxWord = entry.getKey();
+                maxCount = entry.getValue();
+            }
+        }
+// for(Map.Entry<String,Integer>  entry:wordMap.entrySet()){
+    
+//             System.out.println(entry.getValue()+entry.getKey());
 
-}
+// }
 
         System.out.println("Most frequent word: " + maxWord + " -> " + maxCount + " times");
     }
