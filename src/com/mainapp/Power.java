@@ -3,6 +3,7 @@ package com.mainapp;
 public class Power {
     public static void main(String[] args) {
         
+        @SuppressWarnings("unused")
         int result=power(2, 3);
             }
         

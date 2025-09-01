@@ -39,9 +39,10 @@ public class TranposeMatrix {
         }
         for (int i = 0; i < transpose.length; i++) {
             for (int j = 0; j < transpose[i].length; j++) {
-               System.out.print(transpose[i][j] + " ");
+                System.out.print(transpose[i][j] + " ");
             }
             System.out.println();
         }
+        scanner.close();
     }
 }

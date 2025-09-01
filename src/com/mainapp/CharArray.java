@@ -4,6 +4,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class CharArray {
+    @SuppressWarnings("unused")
     private static Scanner scanner;
 
     public static void main(String[] args) {

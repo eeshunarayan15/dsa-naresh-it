@@ -33,6 +33,7 @@ public class UniqueElementOfArray {
             }
 
         }
+        sc.close();
     }
 
 }

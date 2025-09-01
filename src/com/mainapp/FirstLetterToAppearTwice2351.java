@@ -1,8 +1,5 @@
 package com.mainapp;
-
 import java.util.HashMap;
-import java.util.Map;
-
 public class FirstLetterToAppearTwice2351 {
     public static void main(String[] args) {
         String s = "abccbaacz";

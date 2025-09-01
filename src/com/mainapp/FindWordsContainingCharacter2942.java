@@ -1,7 +1,5 @@
 package com.mainapp;
-
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class FindWordsContainingCharacter2942 {
@@ -10,7 +8,7 @@ public class FindWordsContainingCharacter2942 {
 //        Output: [0,1]
 //        Explanation: "e" occurs in both words: "leet", and "code". Hence, we return indices 0 and 1.
         String []words = {"leet","code"};
-        char x= x = 'e';
+        char x = 'e';
         List<Integer> wordsContaining = findWordsContaining(words, x);
         System.out.println(wordsContaining);
     }

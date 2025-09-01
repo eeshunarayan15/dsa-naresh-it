@@ -3,6 +3,7 @@ package com.mainapp;
 import java.util.Scanner;
 
 public class ColumnWiseSum {
+    @SuppressWarnings("unused")
     public static void main(String[] args) {
            Scanner sc = new Scanner(System.in);
         System.out.print("Enter the row : ");
@@ -31,8 +32,9 @@ public class ColumnWiseSum {
                 // System.out.println(mat[i][j]);
                 sum += mat[i][j];
             }
-            System.out.println("---------------------------"+sum);
+            System.out.println("---------------------------" + sum);
         }
+        sc.close();
     }
 
 }

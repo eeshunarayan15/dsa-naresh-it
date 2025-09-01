@@ -1,8 +1,4 @@
 package com.mainapp;
-
-import java.io.*;
-import java.util.Scanner;
-
 public class Solution {
 //patter of right angled triangle
     public static void main(String[] args) {

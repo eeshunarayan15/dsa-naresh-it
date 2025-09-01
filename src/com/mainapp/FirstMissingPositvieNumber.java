@@ -14,6 +14,7 @@ public class FirstMissingPositvieNumber {
     public static int firstMissingPositive(int[] nums) {
        int flag = 0;
         Arrays.sort(nums);
+        @SuppressWarnings("unused")
         String string = Arrays.toString(nums);
 //        System.out.println(string);
         for(int i=0;i<nums.length;i++){

@@ -8,6 +8,7 @@ public class Dublicate3 {
         int array[]={1,2,5,2,6,1,7,1,1,5,6,7};
         // int array[]={1000,1000,1000,1000};
         int n=array.length;
+        @SuppressWarnings("unused")
         ArrayList<Integer> al = new ArrayList<Integer>();
         for(int i=0;i<n;i++){  
             System.out.println(Arrays.toString(array));

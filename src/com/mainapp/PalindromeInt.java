@@ -1,11 +1,8 @@
 package com.mainapp;
-
-import java.util.Collection;
-import java.util.Collections;
-
 public class PalindromeInt {
     public static void main(String[] args) {
         int x=121;
+     @SuppressWarnings("unused")
      boolean res=   palindrome(x);
     }
 

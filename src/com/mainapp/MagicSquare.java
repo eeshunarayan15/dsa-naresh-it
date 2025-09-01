@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class MagicSquare {
     public static void main(String[] args) {
 
+        @SuppressWarnings("resource")
         Scanner sc = new Scanner(System.in);
         int A[][] = new int[3][3];
         for (int i = 0; i < 3; i++) {

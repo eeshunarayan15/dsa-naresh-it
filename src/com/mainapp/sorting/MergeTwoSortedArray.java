@@ -18,6 +18,7 @@ public class MergeTwoSortedArray {
         System.out.println(Arrays.toString(arr));
 
         
+        @SuppressWarnings("unused")
         TreeMap<Integer, String> studentRoll = new TreeMap<>();
 
 

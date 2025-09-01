@@ -1,8 +1,4 @@
 package com.mainapp;
-
-import java.util.ArrayList;
-import java.util.List;
-
 public class DifferenceBetweenElementSumAndDigitSumOfAnArray2535 {
 //    Input: nums = [1,15,6,3]
 //    Output: 9
@@ -16,6 +12,7 @@ public class DifferenceBetweenElementSumAndDigitSumOfAnArray2535 {
         System.out.println(response);
 
     }
+    @SuppressWarnings("unused")
     public static int differenceOfSum(int[] nums) {
         int sum=0;
         int digitSum=0;

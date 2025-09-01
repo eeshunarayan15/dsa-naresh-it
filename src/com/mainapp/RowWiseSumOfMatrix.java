@@ -46,7 +46,7 @@ public class RowWiseSumOfMatrix {
         //     System.out.println("Sum of row " + (i + 1) + ": " + rowSum);
         // }
 
-        // sc.close(); // Close the scanner3
+        sc.close(); // Close the scanner3
 
     }
 }

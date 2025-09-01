@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 public class CountSort1 {
+    @SuppressWarnings("unused")
     private static ArrayList<Object> arrayList;
 
     public static void main(String[] args) {
@@ -16,6 +17,7 @@ public class CountSort1 {
 
         }
         int frequency = 0;
+        @SuppressWarnings("unused")
         int element = 0;
         for (int i = 1; i < m+1; i++) {
             if (count[i] > frequency) {

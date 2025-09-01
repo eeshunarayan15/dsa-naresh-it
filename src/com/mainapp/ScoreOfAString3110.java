@@ -1,8 +1,5 @@
 package com.mainapp;
-
 import java.nio.charset.StandardCharsets;
-import java.util.Arrays;
-
 public class ScoreOfAString3110 {
     public static void main(String[] args) {
 //        Input: s = "hello"

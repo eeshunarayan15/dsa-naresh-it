@@ -4,6 +4,7 @@ import java.util.Arrays;
 
 public class CountSort2 {
 public static void main(String[] args) {
+     @SuppressWarnings("unused")
      int m=10;
         int arr[] = { 10, 5, 1, 3, -10, 2, 3, 9, 4, 3, 1, 4 };
      cs(arr,arr.length,-10,10);

@@ -31,7 +31,6 @@ public class SparseMatrix {
 
             }
 
-            
         }
         int nonZero = totalElement - zero;
         if (zero > nonZero) {
@@ -39,6 +38,6 @@ public class SparseMatrix {
         } else {
             System.out.println("no");
         }
-
+        sc.close();
     }
 }

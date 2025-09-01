@@ -3,6 +3,7 @@ package com.mainapp;
 import java.util.Scanner;
 
 public class DiagonalElementPrinting {
+    @SuppressWarnings("unused")
     private static Scanner scanner;
 
     public static void main(String[] args) {
@@ -38,6 +39,7 @@ public class DiagonalElementPrinting {
                 }
             }
         }
+        scanner.close();
     }
     }
 

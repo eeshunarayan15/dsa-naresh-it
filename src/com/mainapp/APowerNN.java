@@ -9,6 +9,7 @@ public class APowerNN {
     public static int power(int a ,int n){
         int x=a;
         int ans=1;
+        @SuppressWarnings("unused")
         int m=1_000_000_000+7;
         //modulo arithmatic
         for(int i=0;i<31;i++){
@@ -21,7 +22,7 @@ public class APowerNN {
         return ans;
     }
     private static boolean checkBit(int a, int n) {
-        // TODO Auto-generated method stub
+    
         throw new UnsupportedOperationException("Unimplemented method 'checkBit'");
     }
 

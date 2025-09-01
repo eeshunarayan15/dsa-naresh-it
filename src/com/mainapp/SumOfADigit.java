@@ -2,18 +2,21 @@ package com.mainapp;
 
 import java.util.Scanner;
 
+@SuppressWarnings("unused")
 public class SumOfADigit {
     public static void main(String[] args) {
         // Scanner scanner = new Scanner(System.in);
         // int n = scanner.nextInt();
         int n = 1;
 
+       
         int result = sum(n);
         // System.out.println("Result : "+result);
         // scanner.close();
 
         String m = "00122222222222";
 
+      
         long result1 = digigStringSum(m);
         // System.out.println("result1"+result1);
 
